@@ -1,0 +1,49 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+.hacker{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.code{
+    width: 50%;
+    padding: 5px;
+}
+
+.contenair{
+    display: flex;
+}
+
+.media{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.img-content{
+    display: flex;
+}
+
+@media screen and (max-width: 768px){
+    .contenair{
+        flex-direction: column;
+    }
+    .img-content{
+        flex-direction: column;
+    }
+
+    .code{
+        width: 100%;
+    }
+    
+    p{
+        margin: auto;
+    }
+}
